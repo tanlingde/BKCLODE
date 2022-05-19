@@ -146,6 +146,7 @@
     <Compile Include="Webapi\CommonController.cs" />
     <Compile Include="Webapi\BaseApi.cs" />
     <Compile Include="Webapi\CheckFieldController.cs" />
+    <Compile Include="Webapi\DebugController.cs" />
     <Compile Include="webstack\CompressContentAttribute.cs" />
     <Compile Include="webstack\NamespaceHttpControllerSelector .cs" />
     <Compile Include="webstack\RequestWrapper.cs" />

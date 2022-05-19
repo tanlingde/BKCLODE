@@ -1,0 +1,14 @@
+G:\svnnew\201508_cms_v2\trunk\code\src\web\Process\TestTools\YDZGMoniData\bin\Release\PLC统计表-远大住工.xls
+G:\svnnew\201508_cms_v2\trunk\code\src\web\Process\TestTools\YDZGMoniData\bin\Release\celllic.lic
+G:\svnnew\201508_cms_v2\trunk\code\src\web\Process\TestTools\YDZGMoniData\bin\Release\YDZGMoniData.exe.config
+G:\svnnew\201508_cms_v2\trunk\code\src\web\Process\TestTools\YDZGMoniData\bin\Release\YDZGMoniData.exe
+G:\svnnew\201508_cms_v2\trunk\code\src\web\Process\TestTools\YDZGMoniData\bin\Release\YDZGMoniData.pdb
+G:\svnnew\201508_cms_v2\trunk\code\src\web\Process\TestTools\YDZGMoniData\bin\Release\Aspose.Cells.dll
+G:\svnnew\201508_cms_v2\trunk\code\src\web\Process\TestTools\YDZGMoniData\bin\Release\Newtonsoft.Json.dll
+G:\svnnew\201508_cms_v2\trunk\code\src\web\Process\TestTools\YDZGMoniData\bin\Release\Newtonsoft.Json.xml
+G:\svnnew\201508_cms_v2\trunk\code\src\web\Process\TestTools\YDZGMoniData\obj\Release\YDZGMoniData.Form1.resources
+G:\svnnew\201508_cms_v2\trunk\code\src\web\Process\TestTools\YDZGMoniData\obj\Release\YDZGMoniData.Properties.Resources.resources
+G:\svnnew\201508_cms_v2\trunk\code\src\web\Process\TestTools\YDZGMoniData\obj\Release\YDZGMoniData.csproj.GenerateResource.Cache
+G:\svnnew\201508_cms_v2\trunk\code\src\web\Process\TestTools\YDZGMoniData\obj\Release\YDZGMoniData.exe
+G:\svnnew\201508_cms_v2\trunk\code\src\web\Process\TestTools\YDZGMoniData\obj\Release\YDZGMoniData.pdb
+G:\svnnew\201508_cms_v2\trunk\code\src\web\Process\TestTools\YDZGMoniData\obj\Release\YDZGMoniData.csprojResolveAssemblyReference.cache

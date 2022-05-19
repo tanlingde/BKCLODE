@@ -1,0 +1,2 @@
+D:\project\src\web\Process\BK.Kafka\obj\Debug\BK.Kafka.csproj.AssemblyReference.cache
+D:\project\src\web\Process\BK.Kafka\obj\Debug\BK.Kafka.csproj.CoreCompileInputs.cache

@@ -1,0 +1,43 @@
+web.config中配置说明
+
+
+键RunService
+值需要分行的服务参数列表如下：
+MaintenPlan         定期生成维保计划任务（新版本作废）
+NewMaintenPlan      定期生成新维保计划任务
+ComputeDistance     Gps计算总里程
+XJLCDistance        统计小计里程
+SysDayRunDateil     处理昨天的设备运行时间基础数据
+SysBrakeToYesterday 同步前一天的制动状态数据
+SysGPSToAddress     修改GPS表中的地址信息，根据GPS修改
+KDRunDayTime        科达日运行时间
+KDPerformanceStatistics  科达工作情况计算
+配置如下
+ <add key="RunService" value="MaintenPlan" />（单个）
+ <add key="RunService" value="MaintenPlan,ComputeDistance" />（多个）
+
+
+健OrgID
+值当前机构iD
+配置如下
+<add key="OrgID" value="20160901" />
+
+健IsShowLSBtn
+值true false   是否显示历史数据处理按钮（默认不显示）
+配置如下
+<add key="IsShowLSBtn" value="false" />
+
+
+键OrgCode
+值当前机构Code多个逗号隔开
+配置如下
+  <add key="OrgCode" value="TYGB" />
+或
+  <add key="OrgCode" value="TYGB,HMQC" />
+
+键CarType
+值  车类型多个逗号隔开
+配置如下
+  <add key="CarType" value="71" />
+或
+  <add key="CarType" value="71,70" />

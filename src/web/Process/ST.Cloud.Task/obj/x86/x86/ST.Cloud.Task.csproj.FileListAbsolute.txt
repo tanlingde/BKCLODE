@@ -1,0 +1,5 @@
+G:\svnnew\201508_cms_v2\trunk\code\src\web\Process\ST.Cloud.Task\obj\x86\x86\ST.Cloud.Task.csprojResolveAssemblyReference.cache
+G:\svnnew\201508_cms_v2\trunk\code\src\web\Process\ST.Cloud.Task\obj\x86\x86\ST.Cloud.Task.Form1.resources
+G:\svnnew\201508_cms_v2\trunk\code\src\web\Process\ST.Cloud.Task\obj\x86\x86\ST.Cloud.Task.Properties.Resources.resources
+G:\svnnew\201508_cms_v2\trunk\code\src\web\Process\ST.Cloud.Task\obj\x86\x86\ST.Cloud.Task.ShowLog.resources
+G:\svnnew\201508_cms_v2\trunk\code\src\web\Process\ST.Cloud.Task\obj\x86\x86\ST.Cloud.Task.csproj.GenerateResource.Cache

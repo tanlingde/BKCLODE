@@ -1,0 +1,8 @@
+G:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Tools\bin\Release\ST.Cloud.Tools.dll
+G:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Tools\bin\Release\ST.Cloud.Tools.pdb
+G:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Tools\bin\Release\Fireasy.Common.dll
+G:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Tools\bin\Release\ICSharpCode.SharpZipLib.dll
+G:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Tools\bin\Release\Fireasy.Common.xml
+G:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Tools\obj\Release\ST.Cloud.Tools.csprojResolveAssemblyReference.cache
+G:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Tools\obj\Release\ST.Cloud.Tools.dll
+G:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Tools\obj\Release\ST.Cloud.Tools.pdb

@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Fireasy.Data.Validation</name>
+    </assembly>
+    <members>
+        <member name="T:Fireasy.Data.Validation.AsciiCodingAttribute">
+            <summary>
+            对 ASCII 码的验证，配置文件对应的键为 Ascii。
+            </summary>
+        </member>
+        <member name="T:Fireasy.Data.Validation.ConfigurableRegularExpressionAttribute">
+            <summary>
+            一个抽象类，继承此类的验证类可将正则表达式模式放在 Validation-Regulars.Config 里进行配置。
+            </summary>
+        </member>
+        <member name="M:Fireasy.Data.Validation.ConfigurableRegularExpressionAttribute.#ctor(System.String,System.String)">
+            <summary>
+            初始化 <see cref="T:Fireasy.Data.Validation.ConfigurableRegularExpressionAttribute"/> 类的新实例。
+            </summary>
+            <param name="key">存放正则表达式的键名。</param>
+            <param name="defaultPattern">缺省的正则表达式。</param>
+        </member>
+        <member name="M:Fireasy.Data.Validation.ConfigurableRegularExpressionAttribute.GetPattern(System.String,System.String)">
+            <summary>
+            从配置文件里获取正则表达式。如果读取失败，返回默认的正则表达式。
+            </summary>
+            <param name="key">存放正则表达式的键名。</param>
+            <param name="defaultPattern">缺省的正则表达式。</param>
+            <returns></returns>
+        </member>
+        <member name="M:Fireasy.Data.Validation.AsciiCodingAttribute.#ctor">
+            <summary>
+            初始化 <see cref="T:Fireasy.Data.Validation.AsciiCodingAttribute"/> 类的新实例。
+            </summary>
+        </member>
+        <member name="T:Fireasy.Data.Validation.UnicodeCodingAttribute">
+            <summary>
+            对 UNICODE 码的验证，配置文件对应的键为 Unicode。
+            </summary>
+        </member>
+        <member name="M:Fireasy.Data.Validation.UnicodeCodingAttribute.#ctor">
+            <summary>
+            初始化 <see cref="T:Fireasy.Data.Validation.UnicodeCodingAttribute"/> 类的新实例。
+            </summary>
+        </member>
+        <member name="T:Fireasy.Data.Validation.EmailAttribute">
+            <summary>
+            对电子邮件的验证，配置文件对应的键为 Email。
+            </summary>
+        </member>
+        <member name="M:Fireasy.Data.Validation.EmailAttribute.#ctor">
+            <summary>
+            初始化 <see cref="T:Fireasy.Data.Validation.EmailAttribute"/> 类的新实例。
+            </summary>
+        </member>
+        <member name="T:Fireasy.Data.Validation.MobileAttribute">
+            <summary>
+            对手机号的验证，配置文件对应的键为 Mobile。
+            </summary>
+        </member>
+        <member name="M:Fireasy.Data.Validation.MobileAttribute.#ctor">
+            <summary>
+            初始化 <see cref="T:Fireasy.Data.Validation.MobileAttribute"/> 类的新实例。
+            </summary>
+        </member>
+        <member name="T:Fireasy.Data.Validation.TelphoneAttribute">
+            <summary>
+            对电话号码的验证，配置文件对应的键为 Telphone。
+            </summary>
+        </member>
+        <member name="M:Fireasy.Data.Validation.TelphoneAttribute.#ctor">
+            <summary>
+            初始化 <see cref="T:Fireasy.Data.Validation.TelphoneAttribute"/> 类的新实例。
+            </summary>
+        </member>
+        <member name="T:Fireasy.Data.Validation.TelphoneOrMobileAttribute">
+            <summary>
+            对电话或手机号码的验证。
+            </summary>
+        </member>
+        <member name="M:Fireasy.Data.Validation.TelphoneOrMobileAttribute.#ctor">
+            <summary>
+            初始化 <see cref="T:Fireasy.Data.Validation.TelphoneOrMobileAttribute"/> 类的新实例。
+            </summary>
+        </member>
+        <member name="T:Fireasy.Data.Validation.UserNameAttribute">
+            <summary>
+            对用户名的验证，配置文件对应的键为 UserName。
+            </summary>
+        </member>
+        <member name="M:Fireasy.Data.Validation.UserNameAttribute.#ctor">
+            <summary>
+            初始化 <see cref="T:Fireasy.Data.Validation.UserNameAttribute"/> 类的新实例。
+            </summary>
+        </member>
+        <member name="T:Fireasy.Data.Validation.WebSiteAttribute">
+            <summary>
+            对网址的验证，配置文件对应的键为 WebSite。
+            </summary>
+        </member>
+        <member name="M:Fireasy.Data.Validation.WebSiteAttribute.#ctor">
+            <summary>
+            初始化 <see cref="T:Fireasy.Data.Validation.WebSiteAttribute"/> 类的新实例。
+            </summary>
+        </member>
+        <member name="T:Fireasy.Data.Validation.ZipCodeAttribute">
+            <summary>
+            对邮政编码的验证，配置文件对应的键为 ZipCode。
+            </summary>
+        </member>
+        <member name="M:Fireasy.Data.Validation.ZipCodeAttribute.#ctor">
+            <summary>
+            初始化 <see cref="T:Fireasy.Data.Validation.ZipCodeAttribute"/> 类的新实例。
+            </summary>
+        </member>
+    </members>
+</doc>

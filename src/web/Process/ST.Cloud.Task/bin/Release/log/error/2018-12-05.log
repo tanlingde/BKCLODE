@@ -1,0 +1,159 @@
+Time: 2018/12/5 11:07:23
+
+数据错误： PROCEDURE cms.SetCarDayReportZ does not exist--方法SetDayRunDateil~~天数1
+
+*****************************************************************
+Time: 2018/12/5 15:54:24
+
+gps解析错误
+
+--Exceptions--
+WebException => 未能解析此远程名称: 'api.map.baidu.com'
+
+--StackTrack--
+   在 System.Net.WebClient.OpenRead(Uri address)
+   在 ST.Cloud.Logic.LogicScheduleTask.SetGPSToAddress() 位置 g:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Logic\LogicScheduleTask.cs:行号 421
+*****************************************************************
+Time: 2018/12/5 15:54:24
+
+gps解析错误
+
+--Exceptions--
+WebException => 未能解析此远程名称: 'api.map.baidu.com'
+
+--StackTrack--
+   在 System.Net.WebClient.OpenRead(Uri address)
+   在 ST.Cloud.Logic.LogicScheduleTask.SetGPSToAddress() 位置 g:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Logic\LogicScheduleTask.cs:行号 421
+*****************************************************************
+Time: 2018/12/5 15:54:24
+
+gps解析错误
+
+--Exceptions--
+WebException => 未能解析此远程名称: 'api.map.baidu.com'
+
+--StackTrack--
+   在 System.Net.WebClient.OpenRead(Uri address)
+   在 ST.Cloud.Logic.LogicScheduleTask.SetGPSToAddress() 位置 g:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Logic\LogicScheduleTask.cs:行号 421
+*****************************************************************
+Time: 2018/12/5 15:54:24
+
+gps解析错误
+
+--Exceptions--
+WebException => 未能解析此远程名称: 'api.map.baidu.com'
+
+--StackTrack--
+   在 System.Net.WebClient.OpenRead(Uri address)
+   在 ST.Cloud.Logic.LogicScheduleTask.SetGPSToAddress() 位置 g:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Logic\LogicScheduleTask.cs:行号 421
+*****************************************************************
+Time: 2018/12/5 15:54:24
+
+gps解析错误
+
+--Exceptions--
+WebException => 未能解析此远程名称: 'api.map.baidu.com'
+
+--StackTrack--
+   在 System.Net.WebClient.OpenRead(Uri address)
+   在 ST.Cloud.Logic.LogicScheduleTask.SetGPSToAddress() 位置 g:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Logic\LogicScheduleTask.cs:行号 421
+*****************************************************************
+Time: 2018/12/5 15:54:24
+
+gps解析错误
+
+--Exceptions--
+WebException => 未能解析此远程名称: 'api.map.baidu.com'
+
+--StackTrack--
+   在 System.Net.WebClient.OpenRead(Uri address)
+   在 ST.Cloud.Logic.LogicScheduleTask.SetGPSToAddress() 位置 g:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Logic\LogicScheduleTask.cs:行号 421
+*****************************************************************
+Time: 2018/12/5 15:54:24
+
+gps解析错误
+
+--Exceptions--
+WebException => 未能解析此远程名称: 'api.map.baidu.com'
+
+--StackTrack--
+   在 System.Net.WebClient.OpenRead(Uri address)
+   在 ST.Cloud.Logic.LogicScheduleTask.SetGPSToAddress() 位置 g:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Logic\LogicScheduleTask.cs:行号 421
+*****************************************************************
+Time: 2018/12/5 15:54:24
+
+gps解析错误
+
+--Exceptions--
+WebException => 未能解析此远程名称: 'api.map.baidu.com'
+
+--StackTrack--
+   在 System.Net.WebClient.OpenRead(Uri address)
+   在 ST.Cloud.Logic.LogicScheduleTask.SetGPSToAddress() 位置 g:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Logic\LogicScheduleTask.cs:行号 421
+*****************************************************************
+Time: 2018/12/5 15:54:24
+
+gps解析错误
+
+--Exceptions--
+WebException => 未能解析此远程名称: 'api.map.baidu.com'
+
+--StackTrack--
+   在 System.Net.WebClient.OpenRead(Uri address)
+   在 ST.Cloud.Logic.LogicScheduleTask.SetGPSToAddress() 位置 g:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Logic\LogicScheduleTask.cs:行号 421
+*****************************************************************
+Time: 2018/12/5 15:54:24
+
+gps解析错误
+
+--Exceptions--
+WebException => 未能解析此远程名称: 'api.map.baidu.com'
+
+--StackTrack--
+   在 System.Net.WebClient.OpenRead(Uri address)
+   在 ST.Cloud.Logic.LogicScheduleTask.SetGPSToAddress() 位置 g:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Logic\LogicScheduleTask.cs:行号 421
+*****************************************************************
+Time: 2018/12/5 15:54:35
+
+gps解析错误
+
+--Exceptions--
+WebException => 未能解析此远程名称: 'api.map.baidu.com'
+
+--StackTrack--
+   在 System.Net.WebClient.OpenRead(Uri address)
+   在 ST.Cloud.Logic.LogicScheduleTask.SetGPSToAddress() 位置 g:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Logic\LogicScheduleTask.cs:行号 421
+*****************************************************************
+Time: 2018/12/5 15:54:35
+
+gps解析错误
+
+--Exceptions--
+WebException => 未能解析此远程名称: 'api.map.baidu.com'
+
+--StackTrack--
+   在 System.Net.WebClient.OpenRead(Uri address)
+   在 ST.Cloud.Logic.LogicScheduleTask.SetGPSToAddress() 位置 g:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Logic\LogicScheduleTask.cs:行号 421
+*****************************************************************
+Time: 2018/12/5 15:54:35
+
+gps解析错误
+
+--Exceptions--
+WebException => 未能解析此远程名称: 'api.map.baidu.com'
+
+--StackTrack--
+   在 System.Net.WebClient.OpenRead(Uri address)
+   在 ST.Cloud.Logic.LogicScheduleTask.SetGPSToAddress() 位置 g:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Logic\LogicScheduleTask.cs:行号 421
+*****************************************************************
+Time: 2018/12/5 15:54:35
+
+gps解析错误
+
+--Exceptions--
+WebException => 未能解析此远程名称: 'api.map.baidu.com'
+
+--StackTrack--
+   在 System.Net.WebClient.OpenRead(Uri address)
+   在 ST.Cloud.Logic.LogicScheduleTask.SetGPSToAddress() 位置 g:\svnnew\201508_cms_v2\trunk\code\src\Common\ST.Cloud.Logic\LogicScheduleTask.cs:行号 421
+*****************************************************************

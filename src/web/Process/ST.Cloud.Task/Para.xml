@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- currenttask 表示当前执行的任务;多个任务可用,隔开mkkjtask,zdjxtask -->
+<tasks currenttask="ydtytask">
+  <task name="ydtytask" desc="远大住工太原" orgcode="tygb">
+    <job appcode="TybgLiCheng" appname="长丰历史数据里程修改" runtype="0" interval="2" isshow="1" StartData="2018"></job>
+  </task>
+</tasks>

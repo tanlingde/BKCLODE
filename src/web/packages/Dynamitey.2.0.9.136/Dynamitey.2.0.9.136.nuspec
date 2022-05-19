@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Dynamitey</id>
+    <version>2.0.9.136</version>
+    <title>Dynamitey</title>
+    <authors>Dynamitey</authors>
+    <owners>Dynamitey</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/ekonbenefits/dynamitey</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>(pronounced dyna-mighty) flexes DLR muscle to do meta-mazing things in .net</description>
+    <summary />
+    <copyright>Copyright 2017 Ekon Benefits</copyright>
+    <tags>dynamic metaprogramming dlr reflection currying tuples expando latetypes</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework=".NETPortable0.0-net45+sl5+win8+wp8" />
+      <group targetFramework="Unsupported0.0">
+        <dependency id="Microsoft.CSharp" version="4.4.1" />
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.ComponentModel" version="4.3.0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.0, .NETPortable0.0-Profile158" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

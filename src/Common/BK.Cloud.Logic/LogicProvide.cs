@@ -90,26 +90,6 @@ namespace BK.Cloud.Logic
                 return buContainer.Resolve<ILogicDebug>();
             }
         }
-        /// <summary>
-        /// 长坯库库存与来料生产计划
-        /// </summary>
-        public static ILogicLongInventory LogicLongInventory
-        {
-            get
-            {
-                return buContainer.Resolve<ILogicLongInventory>();
-            }
-        }
-        /// <summary>
-        /// 短坯库库存
-        /// </summary>
-        public static ILogicShortInventory LogicShortInventory
-        {
-            get
-            {
-                return buContainer.Resolve<ILogicShortInventory>();
-            }
-        }
 
     }
 

@@ -18,3 +18,14 @@ D:\project\src\Common\BK.Cloud.Tools\obj\Debug\BK.Cloud.Tools.csproj.CopyComplet
 D:\project\src\Common\BK.Cloud.Tools\obj\Debug\ST.Cloud.Tools.dll
 D:\project\src\Common\BK.Cloud.Tools\obj\Debug\ST.Cloud.Tools.pdb
 D:\project\src\Common\BK.Cloud.Tools\obj\Debug\BK.Cloud.Tools.csproj.AssemblyReference.cache
+D:\BKD\BKCLODE\src\Common\BK.Cloud.Tools\bin\Debug\BK.Cloud.Tools.dll
+D:\BKD\BKCLODE\src\Common\BK.Cloud.Tools\bin\Debug\BK.Cloud.Tools.pdb
+D:\BKD\BKCLODE\src\Common\BK.Cloud.Tools\bin\Debug\Fireasy.Common.dll
+D:\BKD\BKCLODE\src\Common\BK.Cloud.Tools\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\BKD\BKCLODE\src\Common\BK.Cloud.Tools\bin\Debug\Fireasy.Common.xml
+D:\BKD\BKCLODE\src\Common\BK.Cloud.Tools\obj\Debug\BK.Cloud.Tools.csproj.AssemblyReference.cache
+D:\BKD\BKCLODE\src\Common\BK.Cloud.Tools\obj\Debug\BK.Cloud.Tools.csproj.CoreCompileInputs.cache
+D:\BKD\BKCLODE\src\Common\BK.Cloud.Tools\obj\Debug\BK.Cloud.Tools.sourcelink.json
+D:\BKD\BKCLODE\src\Common\BK.Cloud.Tools\obj\Debug\BK.Cloud.Tools.csproj.CopyComplete
+D:\BKD\BKCLODE\src\Common\BK.Cloud.Tools\obj\Debug\BK.Cloud.Tools.dll
+D:\BKD\BKCLODE\src\Common\BK.Cloud.Tools\obj\Debug\BK.Cloud.Tools.pdb

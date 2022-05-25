@@ -4,7 +4,7 @@
 
 // 项目名称: BK.Cloud.Model
 // 模块名称: 调试日志表 实体类
-// 代码编写: 李罗成
+// 代码编写: 谭凌德
 // 文件路径: G:\svnnew\201508_cms_v2\trunk\code\src\Common\BK.Cloud.Model\Model\TB_DebugLog.cs
 // 创建时间: 2017/3/1 10:33:38
 // ------------------------------

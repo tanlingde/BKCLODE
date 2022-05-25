@@ -11,8 +11,8 @@
     <ProjectGuid>{BF4894DC-0843-4D71-A400-D478FFD3DAB4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ST.Cloud.Task</RootNamespace>
-    <AssemblyName>ST.Cloud.Task</AssemblyName>
+    <RootNamespace>BK.Cloud.Task</RootNamespace>
+    <AssemblyName>BK.Cloud.Task</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>

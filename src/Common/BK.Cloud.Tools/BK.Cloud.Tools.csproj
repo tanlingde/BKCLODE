@@ -11,8 +11,8 @@
     <ProjectGuid>{5B487DBF-C80F-47AC-ACAB-7650176FBD25}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ST.Cloud.Tools</RootNamespace>
-    <AssemblyName>ST.Cloud.Tools</AssemblyName>
+    <RootNamespace>BK.Cloud.Tools</RootNamespace>
+    <AssemblyName>BK.Cloud.Tools</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

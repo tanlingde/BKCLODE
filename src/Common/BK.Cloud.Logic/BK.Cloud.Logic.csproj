@@ -11,8 +11,8 @@
     <ProjectGuid>{72032C0D-64F0-46F8-B766-68F57E8EF537}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ST.Cloud.Logic</RootNamespace>
-    <AssemblyName>ST.Cloud.Logic</AssemblyName>
+    <RootNamespace>BK.Cloud.Logic</RootNamespace>
+    <AssemblyName>BK.Cloud.Logic</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
@@ -159,20 +159,29 @@
     <Compile Include="InnerObj\DbDictionarys.cs" />
     <Compile Include="InnerObj\ProvideHelper.cs" />
     <Compile Include="Interface\ILogicDebug.cs" />
+    <Compile Include="Interface\ILogicFireCut.cs" />
     <Compile Include="Interface\ILogicGeneric.cs" />
     <Compile Include="Interface\ILogicLog.cs" />
+    <Compile Include="Interface\ILogicLongInventory.cs" />
+    <Compile Include="Interface\ILogicSawCutting.cs" />
+    <Compile Include="Interface\ILogicShortInventory.cs" />
     <Compile Include="LogicDebug.cs" />
+    <Compile Include="LogicFireCut.cs" />
     <Compile Include="LogicGeneric.cs" />
     <Compile Include="LogicLog.cs" />
+    <Compile Include="LogicLongInventory.cs" />
     <Compile Include="LogicProvide.cs" />
     <Compile Include="InnerObj\BaseLogic.cs" />
     <Compile Include="InnerObj\BusQuery.cs" />
     <Compile Include="InnerObj\ElasticSearchHelper.cs" />
+    <Compile Include="LogicSawCutting.cs" />
+    <Compile Include="LogicShortInventory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RedisManage.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BK.Cloud.Model\BK.Cloud.Model.csproj">
-      <Project>{DF140E60-5796-4FB0-952C-5BB92E51E51F}</Project>
+      <Project>{df140e60-5796-4fb0-952c-5bb92e51e51f}</Project>
       <Name>BK.Cloud.Model</Name>
     </ProjectReference>
     <ProjectReference Include="..\BK.Cloud.Tools\BK.Cloud.Tools.csproj">
@@ -182,12 +191,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Oracle.DataAccess.Common.Configuration.Section.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Oracle.ManagedDataAccess.Client.Configuration.Section.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />

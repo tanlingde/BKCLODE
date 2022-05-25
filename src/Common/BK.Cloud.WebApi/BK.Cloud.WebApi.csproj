@@ -10,8 +10,8 @@
     <ProjectGuid>{60EE177B-BFC0-4216-82FB-824316E99390}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ST.Cloud.WebApi</RootNamespace>
-    <AssemblyName>ST.Cloud.WebApi</AssemblyName>
+    <RootNamespace>BK.Cloud.WebApi</RootNamespace>
+    <AssemblyName>BK.Cloud.WebApi</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\web\</SolutionDir>
@@ -146,6 +146,12 @@
     <Compile Include="Webapi\CommonController.cs" />
     <Compile Include="Webapi\BaseApi.cs" />
     <Compile Include="Webapi\CheckFieldController.cs" />
+    <Compile Include="Webapi\FireCutController.cs" />
+    <Compile Include="Webapi\InterventionController.cs" />
+    <Compile Include="Webapi\LongInventoryController.cs" />
+    <Compile Include="Webapi\RollController.cs" />
+    <Compile Include="Webapi\SawCuttingController.cs" />
+    <Compile Include="Webapi\ShortInventoryController.cs" />
     <Compile Include="webstack\CompressContentAttribute.cs" />
     <Compile Include="webstack\NamespaceHttpControllerSelector .cs" />
     <Compile Include="webstack\RequestWrapper.cs" />
@@ -161,7 +167,7 @@
       <Name>BK.Cloud.Facade</Name>
     </ProjectReference>
     <ProjectReference Include="..\BK.Cloud.Logic\BK.Cloud.Logic.csproj">
-      <Project>{72032C0D-64F0-46F8-B766-68F57E8EF537}</Project>
+      <Project>{72032c0d-64f0-46f8-b766-68f57e8ef537}</Project>
       <Name>BK.Cloud.Logic</Name>
     </ProjectReference>
     <ProjectReference Include="..\BK.Cloud.Model\BK.Cloud.Model.csproj">
@@ -173,7 +179,6 @@
       <Name>BK.Cloud.Tools</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />

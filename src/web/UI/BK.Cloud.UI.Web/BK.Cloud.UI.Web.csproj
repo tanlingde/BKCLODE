@@ -14,8 +14,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ST.Cloud.UI.Web</RootNamespace>
-    <AssemblyName>ST.Cloud.UI.Web</AssemblyName>
+    <RootNamespace>BK.Cloud.UI.Web</RootNamespace>
+    <AssemblyName>BK.Cloud.UI.Web</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -174,6 +174,10 @@
     <Folder Include="Web\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\BK.Cloud.Model\BK.Cloud.Model.csproj">
+      <Project>{df140e60-5796-4fb0-952c-5bb92e51e51f}</Project>
+      <Name>BK.Cloud.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\Common\BK.Cloud.Tools\BK.Cloud.Tools.csproj">
       <Project>{5b487dbf-c80f-47ac-acab-7650176fbd25}</Project>
       <Name>BK.Cloud.Tools</Name>
@@ -181,10 +185,6 @@
     <ProjectReference Include="..\..\..\Common\BK.Cloud.WebApi\BK.Cloud.WebApi.csproj">
       <Project>{60ee177b-bfc0-4216-82fb-824316e99390}</Project>
       <Name>BK.Cloud.WebApi</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Process\ST.Cloud.Facade\BK.Cloud.Facade.csproj">
-      <Project>{905b581e-3e34-40b2-a36d-34f68ec0c68c}</Project>
-      <Name>BK.Cloud.Facade</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

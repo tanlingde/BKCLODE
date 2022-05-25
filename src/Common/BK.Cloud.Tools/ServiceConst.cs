@@ -8,238 +8,118 @@ namespace BK.Cloud.Tools
 {
     public class ServiceConst
     {
-        /// <summary>
-        /// redis订阅命令接收频道（服务之间命令）
-        /// </summary>
-        public const string REDIS_CMD = "REDIS_CMD";
+        #region 数据跟踪队列
 
         /// <summary>
-        /// redis历史命令接收频道（服务之间命令）
+        /// 炉前提升链数据集
         /// </summary>
-        public const string REDIS_CMD_HIS = "REDIS_CMD_HIS";
+        public const string LIFTING_DATA = "LIFTING_DATA";
         /// <summary>
-        /// 写变量
+        /// 炉前区1#辊道数据集
         /// </summary>
-        public const string REDIS_CMD_WRITEVAR = "REDIS_CMD_WRITEVAR";
-
+        public const string FURNAROLLER_DATA1 = "FURNAROLLER_DATA1";
         /// <summary>
-        /// redis服务状态监控日志信息
+        /// 炉前区2#辊道数据集
         /// </summary>
-        public const string REDIS_LOG_MESSAGE = "status_log_message";
-
+        public const string FURNAROLLER_DATA2 = "FURNAROLLER_DATA2";
         /// <summary>
-        /// redis服务错误监控日志信息
+        /// 炉前区3#辊道数据集
         /// </summary>
-        public const string REDIS_ERROR_MESSAGE = "status_error_message";
-
+        public const string FURNAROLLER_DATA3 = "FURNAROLLER_DATA3";
         /// <summary>
-        /// redis服务调试日志信息
+        /// 炉前区4#辊道数据集
         /// </summary>
-        public const string REDIS_DEBUG_MESSAGE = "status_debug_message";
-
+        public const string FURNAROLLER_DATA4 = "FURNAROLLER_DATA4";
         /// <summary>
-        /// redis历史命令记录
+        /// 预热区数据集
         /// </summary>
-        public const string REDIS_COMMOND_HISTORY = "status_commond_history";
-
-
+        public const string PREHEAT_DATA = "PREHEAT_DATA";
         /// <summary>
-        /// redis回复命令前缀
+        /// 炉内1#数据集
         /// </summary>
-        public const string CMDREPLY_PREFIX = "CMDREPLY_";
+        public const string FURNACE_DATA1 = "FURNACE_DATA1";
         /// <summary>
-        /// redis 深拓协议数据发送接收频道
+        /// 炉内2#数据集
         /// </summary>
-        public const string REDIS_ST_PROTOCOL = "STPROTOCOL";
-
+        public const string FURNACE_DATA2 = "FURNACE_DATA2";
         /// <summary>
-        /// redis 部标协议数据发送接收频道
+        /// 炉内3#数据集
         /// </summary>
-        public const string REDIS_HM_PROTOCOL = "HM_PROTOCOL";
-
-
+        public const string FURNACE_DATA3 = "FURNACE_DATA3";
         /// <summary>
-        /// redis 四信GPS数据发送接收频道
+        /// 炉内4#数据集
         /// </summary>
-        public const string REDIS_GPS_SiXingPROTOCOL = "GPSSiXingPROTOCOL";
-
-
+        public const string FURNACE_DATA4 = "FURNACE_DATA4";
         /// <summary>
-        /// redis 命令发送接收频道
+        /// 炉内5#数据集
         /// </summary>
-        public const string REDIS_COMMOND_PROTOCOL = "REDIS_COMMOND_PROTOCOL";
-
-
+        public const string FURNACE_DATA5 = "FURNACE_DATA5";
         /// <summary>
-        /// 设备连接状态通知频道
+        /// 均热1区数据集
         /// </summary>
-        public const string REDIS_CONNSTATECHANGE = "REDIS_CONNSTATECHANGE";
-
-
+        public const string SOAKING_DATA1 = "SOAKING_DATA1";
         /// <summary>
-        /// redis 设备数据保存前缀
+        /// 均热2区数据集
         /// </summary>
-        public const string REDIS_DATA_PREFIX = "data_";
-
+        public const string SOAKING_DATA2 = "SOAKING_DATA2";
         /// <summary>
-        /// 在线在线状态前缀
+        /// 炉后辊道数据集
         /// </summary>
-        public const string REDIS_LINE_DEVS = "line_devs";
-
-
+        public const string BEHINDFURNACE_DATA = "BEHINDFURNACE_DATA";
         /// <summary>
-        /// 缓存命令字典
+        /// 穿孔运输链数据集
         /// </summary>
-        public const string REDIS_CURRENT_CACHECMDS = "REDIS_CURRENT_CACHECMDS";
-
-
+        public const string TRANSPORTATIONCHAIN_DATA = "TRANSPORTATIONCHAIN_DATA";
         /// <summary>
-        /// 在线在线状态前缀
+        /// 穿孔轧制数据集
         /// </summary>
-        public const string REDIS_STATUS_CARS = "line_car_status";
-
+        public const string PIERCING_DATA = "PIERCING_DATA";
         /// <summary>
-        /// 实时数据保存KEY
+        /// 轧管轨道数据集
         /// </summary>
-        public const string REDIS_REAL_DATA_KEY = "REAL_DATA";
-
+        public const string PIPETRACK_DATA = "PIPETRACK_DATA";
         /// <summary>
-        /// 实时GPS数据保存KEY
+        /// 扎管机中数据集
         /// </summary>
-        public const string REDIS_REAL_GPS_KEY = "REAL_GPS";
-
-
-
+        public const string PIPE_DATA = "PIPE_DATA";
         /// <summary>
-        /// 设置当前监控设备号的命令
+        /// 减定径前辊道数据集
         /// </summary>
-        public const string SET_DEVNO = "setdevno";
-
+        public const string REDUCINGROLLER_DATA = "REDUCINGROLLER_DATA";
         /// <summary>
-        /// 查看当前运行状态信息
+        /// 减定径机中数据集
         /// </summary>
-        public const string SET_STATUS = "show";
-
+        public const string REDUCING_DATA = "REDUCING_DATA";
         /// <summary>
-        /// 退出容器服务命令
+        /// 冷床前辊道数据集
         /// </summary>
-        public const string SET_EXIT = "exit";
-
+        public const string COOLINGROLLER_DATA = "COOLINGROLLER_DATA";
         /// <summary>
-        /// 原始数据索引
+        /// 冷床1#数据集
         /// </summary>
-        public const string ELASTIC_ORGINDEX = "orgdata";
-
+        public const string COOLING_DATA1 = "COOLING_DATA1";
         /// <summary>
-        /// 原始数据类型前缀
+        /// 冷床2#数据集
         /// </summary>
-        public const string ELASTIC_ORGTYPE_PREFIX = "org_";
-
+        public const string COOLING_DATA2 = "COOLING_DATA2";
         /// <summary>
-        /// GPS数据索引
+        /// 冷床3#数据集
         /// </summary>
-        public const string ELASTIC_GPSINDEX = "gpsdata";
-
+        public const string COOLING_DATA3 = "COOLING_DATA3";
         /// <summary>
-        /// GPS数据类型前缀
+        /// 矫直前辊道数据集
         /// </summary>
-        public const string ELASTIC_GPSTYPE_PREFIX = "gps_";
-
-
-
+        public const string STRAIGHTENINGROLLER_DATA = "STRAIGHTENINGROLLER_DATA";
         /// <summary>
-        /// EVENT数据类型前缀
+        /// 数据集矫直机中
         /// </summary>
-        public const string ELASTIC_EVENT_PREFIX = "event_";
-
-        /// <summary>
-        /// 响应命令类型前缀
-        /// </summary>
-        public const string ELASTIC_CONTROL_CMDFIX = "controlcmd_";
-
-
-        /// <summary>
-        /// 响应命令保存KEY
-        /// </summary>
-        public const string ELASTIC_CONTROL_CMD = "CONTROL_CMD";
-        /// <summary>
-        /// 接入服务IP地址与协议字符分割符号
-        /// </summary>
-        public const char ACCESSSERVER_SPLIT_IP = 'ā';
-
-
-        /// <summary>
-        /// 保存实时数据固定列名.接收数据时间
-        /// </summary>
-        public const string DATA_RECDATE_NAME = "数据时间";
-
-        /// <summary>
-        /// 保存实时数据固定列名.数据保存时间
-        /// </summary>
-        public const string DATA_SYSDATE_NAME = "更新时间";
-
-
-        /// <summary>
-        /// 保存实时数据固定列名.数据保存时间
-        /// </summary>
-        //public const string DATA_SYSDATE_NAME = "更新时间";
-
-        /// <summary>
-        /// 数据保存服务
-        /// </summary>
-        public const string Service_Default_DataSave = "DataSave";
-
-        /// <summary>
-        /// Gps数据保存服务名称
-        /// </summary>
-        public const string Service_Default_GpsDataSave = "GPSSave";
-
-        /// <summary>
-        /// 告警
-        /// </summary>
-        public const string Redis_Warn = "Warn";
+        public const string STRAIGHTENING_DATA = "STRAIGHTENING_DATA";
+        #endregion
 
         /// <summary>
         /// 修改记录时,旧主键和修改后的主键分割符号
         /// </summary>
         public const string UpKeySplit = "[~KeyField]";
 
-
-        public const string PROTOCOL_STPROTOCOL = "STPROTOCOL";
-
-        public const string PROTOCOL_GPSSiXingPROTOCOL = "GPSSiXingPROTOCOL";
-
-        public const string PROTOCOL_CANPROTOCOL = "CANPROTOCOL";
-
-        public const string PROTOCOL_GBCANPROTOCOL = "GBCANPROTOCOL";
-
-        #region 科大模块变量
-
-        /// <summary>
-        /// 锁车命令集合
-        /// </summary>
-        public const string REDIS_KDJT_LOCKCMD = "REDIS_KDJT_LOCKCMD";
-
-        /// <summary>
-        /// redis已锁车设备集合
-        /// </summary>
-        public const string REDIS_KDJT_CANJIHUO = "REDIS_KDJT_CANJIHUO";
-
-        /// <summary>
-        /// redis当前执行命令
-        /// </summary>
-        public const string REDIS_KDJT_CURRENTCMD = "REDIS_KDJT_CURRENTCMD";
-
-        #endregion
-
-        /// <summary>
-        /// 异常数据
-        /// </summary>
-        public const int DATA_EXCEPTION = 999999;
-
-        /// <summary>
-        /// 无效数据
-        /// </summary>
-        public const int DATA_INVALID =999998;
     }
 }

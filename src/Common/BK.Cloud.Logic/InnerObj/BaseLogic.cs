@@ -460,7 +460,37 @@ namespace BK.Cloud.Logic
             return Newtonsoft.Json.JsonConvert.SerializeObject(obj);
         }
 
+        private PooledRedisClientManager clientsManager = null;
 
+        private static readonly object obj = new object();
 
+        public PooledRedisClientManager ClientsManager
+        {
+            get
+            {
+                if (clientsManager == null)
+                {
+                    lock (obj)
+                    {
+                        if (clientsManager != null)
+                        {
+                            return clientsManager;
+                        }
+                        string url = CommonHelper.GetAppConfig("redisurl");
+                        var urls = url.Split('|');
+                        var readhosts = urls[0].Split(';');
+                        var writehosts = readhosts;
+                        if (urls.Length > 1)
+                        {
+                            writehosts = urls[1].Split(';');
+                        }
+                        var res = new PooledRedisClientManager(readhosts, writehosts, new RedisClientManagerConfig() { MaxWritePoolSize = 100, MaxReadPoolSize = 100, AutoStart = true });
+                        clientsManager = res;
+                        return res;
+                    }
+                }
+                return clientsManager;
+            }
+        }
     }
 }

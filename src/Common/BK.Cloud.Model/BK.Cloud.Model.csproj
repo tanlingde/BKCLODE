@@ -142,6 +142,20 @@
     <Compile Include="Model\TB_DebugLog_EX.cs" />
     <Compile Include="Model\TB_Dictionary.cs" />
     <Compile Include="Model\TB_Dictionary_EX.cs" />
+    <Compile Include="Model\TRK_FC_RECORD.cs" />
+    <Compile Include="Model\TRK_FC_RECORD_EX.cs" />
+    <Compile Include="Model\TRK_LW_DETAIL.cs" />
+    <Compile Include="Model\TRK_LW_DETAIL_EX.cs" />
+    <Compile Include="Model\TRK_PRO_PLAN.cs" />
+    <Compile Include="Model\TRK_PRO_PLAN_EX.cs" />
+    <Compile Include="Model\TRK_RE_RECORD.cs" />
+    <Compile Include="Model\TRK_RE_RECORD_EX.cs" />
+    <Compile Include="Model\TRK_SC_RECORD.cs" />
+    <Compile Include="Model\TRK_SC_RECORD_EX.cs" />
+    <Compile Include="Model\TRK_SW_DETAIL.cs" />
+    <Compile Include="Model\TRK_SW_DETAIL_EX.cs" />
+    <Compile Include="Model\TRK_TEMP_LIST.cs" />
+    <Compile Include="Model\TRK_TEMP_LIST_EX.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

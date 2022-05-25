@@ -45,6 +45,46 @@ namespace BK.Cloud.Facade
             {
                 return buContainer.Resolve<IFacadeDebug>();
             }
-        }       
+        }
+        /// <summary>
+        /// 长坯库模块
+        /// </summary>
+        public static IFacadeLongInventory FacadeLongInventory
+        {
+            get
+            {
+                return buContainer.Resolve<IFacadeLongInventory>();
+            }
+        }
+        /// <summary>
+        /// 短坯库模块
+        /// </summary>
+        public static IFacadeShortInventory FacadeShortInventory
+        {
+            get
+            {
+                return buContainer.Resolve<IFacadeShortInventory>();
+            }
+        }
+        /// <summary>
+        /// 火切模块
+        /// </summary>
+        public static IFacadeFireCut FacadeFireCut
+        {
+            get
+            {
+                return buContainer.Resolve<IFacadeFireCut>();
+            }
+        }
+        /// <summary>
+        /// 锯切模块
+        /// </summary>
+        public static IFacadeSawCutting FacadeSawCutting
+        {
+            get
+            {
+                return buContainer.Resolve<IFacadeSawCutting>();
+            }
+        }
     }
 }

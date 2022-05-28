@@ -142,6 +142,7 @@
   <ItemGroup>
     <Compile Include="LoginCheckFiter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Webapi\RedisManageController.cs" />
     <Compile Include="WebApiConfig.cs" />
     <Compile Include="Webapi\CommonController.cs" />
     <Compile Include="Webapi\BaseApi.cs" />

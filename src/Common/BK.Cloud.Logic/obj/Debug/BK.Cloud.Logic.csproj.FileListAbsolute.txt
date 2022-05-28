@@ -116,7 +116,6 @@ D:\project\src\Common\BK.Cloud.Logic\obj\Debug\BK.Cloud.Logic.csproj.CoreCompile
 D:\project\src\Common\BK.Cloud.Logic\obj\Debug\BK.Cloud.Logic.csproj.CopyComplete
 D:\project\src\Common\BK.Cloud.Logic\obj\Debug\ST.Cloud.Logic.dll
 D:\project\src\Common\BK.Cloud.Logic\obj\Debug\ST.Cloud.Logic.pdb
-D:\BKD\BKCLODE\src\Common\BK.Cloud.Logic\bin\Debug\System.Numerics.Vectors.xml
 D:\BKD\BKCLODE\src\Common\BK.Cloud.Logic\bin\Debug\BK.Cloud.Logic.dll.config
 D:\BKD\BKCLODE\src\Common\BK.Cloud.Logic\bin\Debug\BK.Cloud.Logic.dll
 D:\BKD\BKCLODE\src\Common\BK.Cloud.Logic\bin\Debug\BK.Cloud.Logic.pdb
@@ -165,6 +164,7 @@ D:\BKD\BKCLODE\src\Common\BK.Cloud.Logic\bin\Debug\Nest.xml
 D:\BKD\BKCLODE\src\Common\BK.Cloud.Logic\bin\Debug\Newtonsoft.Json.xml
 D:\BKD\BKCLODE\src\Common\BK.Cloud.Logic\bin\Debug\System.Buffers.xml
 D:\BKD\BKCLODE\src\Common\BK.Cloud.Logic\bin\Debug\System.Memory.xml
+D:\BKD\BKCLODE\src\Common\BK.Cloud.Logic\bin\Debug\System.Numerics.Vectors.xml
 D:\BKD\BKCLODE\src\Common\BK.Cloud.Logic\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\BKD\BKCLODE\src\Common\BK.Cloud.Logic\bin\Debug\System.Text.Encodings.Web.xml
 D:\BKD\BKCLODE\src\Common\BK.Cloud.Logic\bin\Debug\System.Text.Json.xml

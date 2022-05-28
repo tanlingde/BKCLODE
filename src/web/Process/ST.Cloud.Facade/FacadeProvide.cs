@@ -86,5 +86,15 @@ namespace BK.Cloud.Facade
                 return buContainer.Resolve<IFacadeSawCutting>();
             }
         }
+        /// <summary>
+        /// redis队列模块
+        /// </summary>
+        public static IFacadeRedisManage FacadeRedisManage
+        {
+            get
+            {
+                return buContainer.Resolve<IFacadeRedisManage>();
+            }
+        }
     }
 }

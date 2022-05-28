@@ -161,12 +161,14 @@
     <Compile Include="FacadeFireCut.cs" />
     <Compile Include="FacadeLongInventory.cs" />
     <Compile Include="FacadeProvide.cs" />
+    <Compile Include="FacadeRedisManage.cs" />
     <Compile Include="FacadeSawCutting.cs" />
     <Compile Include="FacadeShortInventory.cs" />
     <Compile Include="FacadeTools\PrevDocument.cs" />
     <Compile Include="Interface\IFacadeDebug.cs" />
     <Compile Include="Interface\IFacadeFireCut.cs" />
     <Compile Include="Interface\IFacadeLongInventory.cs" />
+    <Compile Include="Interface\IFacadeRedisManage.cs" />
     <Compile Include="Interface\IFacadeSawCutting.cs" />
     <Compile Include="Interface\IFacadeShortInventory.cs" />
     <Compile Include="Interface\IWebQuery.cs" />
@@ -181,12 +183,6 @@
     </None>
     <None Include="celllic.lic">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Oracle.DataAccess.Common.Configuration.Section.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Oracle.ManagedDataAccess.Client.Configuration.Section.xsd">
-      <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
   </ItemGroup>

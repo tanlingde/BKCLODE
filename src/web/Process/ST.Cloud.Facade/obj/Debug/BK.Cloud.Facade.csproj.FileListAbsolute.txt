@@ -62,13 +62,13 @@ D:\project\src\web\Process\ST.Cloud.Facade\obj\Debug\BK.Cloud.Facade.csproj.Core
 D:\project\src\web\Process\ST.Cloud.Facade\obj\Debug\BK.Cloud.Facade.csproj.CopyComplete
 D:\project\src\web\Process\ST.Cloud.Facade\obj\Debug\ST.Cloud.Facade.dll
 D:\project\src\web\Process\ST.Cloud.Facade\obj\Debug\ST.Cloud.Facade.pdb
+D:\BKD\BKCLODE\src\web\Process\ST.Cloud.Facade\bin\Debug\Aspose.Pdf.dll
 D:\BKD\BKCLODE\src\web\Process\ST.Cloud.Facade\bin\Debug\celllic.lic
 D:\BKD\BKCLODE\src\web\Process\ST.Cloud.Facade\bin\Debug\BK.Cloud.Facade.dll.config
 D:\BKD\BKCLODE\src\web\Process\ST.Cloud.Facade\bin\Debug\BK.Cloud.Facade.dll
 D:\BKD\BKCLODE\src\web\Process\ST.Cloud.Facade\bin\Debug\BK.Cloud.Facade.pdb
 D:\BKD\BKCLODE\src\web\Process\ST.Cloud.Facade\bin\Debug\Antlr3.Runtime.dll
 D:\BKD\BKCLODE\src\web\Process\ST.Cloud.Facade\bin\Debug\Aspose.Cells.dll
-D:\BKD\BKCLODE\src\web\Process\ST.Cloud.Facade\bin\Debug\Aspose.Pdf.dll
 D:\BKD\BKCLODE\src\web\Process\ST.Cloud.Facade\bin\Debug\Aspose.Slides.dll
 D:\BKD\BKCLODE\src\web\Process\ST.Cloud.Facade\bin\Debug\Aspose.Words.dll
 D:\BKD\BKCLODE\src\web\Process\ST.Cloud.Facade\bin\Debug\Autofac.dll

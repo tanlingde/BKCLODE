@@ -130,6 +130,16 @@ namespace BK.Cloud.Logic
                 return buContainer.Resolve<ILogicSawCutting>();
             }
         }
+        /// <summary>
+        /// 跟踪队列redis
+        /// </summary>
+        public static IRedisManage RedisManage
+        {
+            get
+            {
+                return buContainer.Resolve<IRedisManage>();
+            }
+        }
     }
 
     #region 附加特性

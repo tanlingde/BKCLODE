@@ -93,7 +93,6 @@ namespace BK.Cloud.Web.Webapi
             condition = SetCondition(condition);
             return Json(FacadeProvide.WebQuery.QueryAllData(condition));
         }
-
     }
 
 

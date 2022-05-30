@@ -16,5 +16,19 @@ namespace BK.Cloud.Logic.Interface
         /// <param name="HasKey"></param>
         /// <returns></returns>
         List<KeyValuePair<string, TRK_LW_DETAIL>> GetRedisLW(string HasKey);
+        /// <summary>
+        /// 添加队列信息
+        /// </summary>
+        /// <param name="HasKey">区域ID</param>
+        /// <param name="IDno">端部识别的物料ID，带J的是短库存</param>
+        /// <returns></returns>
+        void AddRedisByKey(string HasKey, string IDno);
+        /// <summary>
+        /// 下线物料
+        /// </summary>
+        /// <param name="HasKey">队列区域ID</param>
+        /// <param name="ID">物料ID</param>
+        ///<param name="HsaName">队列区域名称</param>
+        void DelteReids(string HasKey, string ID, string HsaName);
     }
 }
